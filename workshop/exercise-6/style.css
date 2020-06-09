@@ -19,23 +19,43 @@ li {
 /* ADD CSS BELOW */
 
 body {
+  
 }
 
 h1,
 h2 {
+  text-align:center;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-family: 'bangers', cursive;
 }
 
 h1 {
+  font-size:40px;
+
 }
 
 h2 {
+  font-size: 20px;
+  
 }
 
 .row {
+  display:flex;
+  list-style-type:none;
+  justify-content: space-between;
+  
 }
 
 .col {
+flex: 30%;
 }
 
 .image {
+  height: 200px;
+  border-style:dashed;
+  border-color: grey;
+background: lavender;
+max-height: 600px;
+margin: 0 auto;
+padding: 20px;
 }
