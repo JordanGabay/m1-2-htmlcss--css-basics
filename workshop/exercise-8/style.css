@@ -2,13 +2,19 @@ img {
   max-width: 300px;
 }
 
+.container{
+  display:flex;
+}
+
 .img1 {
 }
 
 .img2 {
+ visibility:hidden;
 }
 
 .img3 {
+  visibility:hidden;
 }
 
 .img4 {
