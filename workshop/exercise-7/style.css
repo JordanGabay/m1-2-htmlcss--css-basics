@@ -17,3 +17,55 @@ li {
 }
 
 /* ADD CSS BELOW */
+
+body {
+  margin:30px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Bangers', cursive;
+}
+
+h1{
+  font-size:45px;
+  text-align:center;
+  margin-bottom:30px;
+}
+
+h2{
+  font-size:32px;
+}
+
+h3{
+  font-size:24px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.row{
+  list-style-type: none;
+  display: flex;
+}
+
+.col{
+  background:lavender;
+  border: 2px dashed grey;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.images {
+  display:flex;
+}
+
+.image{
+  border-radius:5px;
+  max-height:100px;
+  width:100%;
+}
+
+.images .image{
+  margin: 0 2px;
+}
