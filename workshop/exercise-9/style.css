@@ -1,15 +1,30 @@
+.container{
+}
+
 img {
-  max-width: 300px;
+  max-width:300px;
 }
 
 .img1 {
+  position:relative;
+  z-index:3;
 }
 
 .img2 {
+  position:absolute;
+  top: 0;
+  left:0;
 }
 
 .img3 {
+  position:fixed;
+  top: 50%;
+  left: 50%;
+  overflow:auto;
 }
 
 .img4 {
+  position:absolute;
+  bottom:0;
+  left:0;
 }
